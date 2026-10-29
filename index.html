@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon1.png" />
+<title>Network Toolkit v8.4 - Ultimate Network Suite</title>
+<meta name="description"
+content="Enterprise-grade network diagnostics, security auditing, and live monitoring in one beautiful, lightweight Windows application.">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap"
+rel="stylesheet">
+
+<!-- Font Awesome for Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<!-- Structured Data: AI & Search Engine Readable --><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://network-toolkit.netlify.app/#organization",
+      "name": "Network Toolkit",
+      "legalName": "Software Engineer's",
+      "url": "https://network-toolkit.netlify.app",
+      "logo": "https://network-toolkit.netlify.app/icon2.png",
+      "description": "Enterprise-grade network diagnostics, security auditing, and live monitoring in one lightweight Windows application.",
+      "foundingDate": "2024",
+      "email": "rayyanamin745@gmail.com",
+      "telephone": "+92-331-444-2167",
+      "founder": {
+        "@type": "Person",
+        "name": "Rayyan Amin"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Dargai, Malakand",
+        "addressLocality": "Dargai",
+        "addressRegion": "Khyber Pakhtunkhwa",
+        "addressCountry": "PK"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "sales",
+        "telephone": "+92-331-444-2167",
+        "email": "rayyanamin745@gmail.com",
+        "availableLanguage": ["English", "Urdu"],
+        "areaServed": "Worldwide"
+      },
+      "paymentAccepted": ["Easypaisa", "JazzCash", "NayaPay", "Bank Transfer"]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://network-toolkit.netlify.app/#developer",
+      "name": "Rayyan Amin",
+      "jobTitle": "Full-Stack Web Developer & Software Engineer",
+      "email": "rayyanamin745@gmail.com",
+      "telephone": "+92-331-444-2167",
+      "worksFor": {
+        "@id": "https://network-toolkit.netlify.app/#organization"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Dargai",
+        "addressRegion": "Khyber Pakhtunkhwa",
+        "addressCountry": "PK"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://network-toolkit.netlify.app/#software",
+      "name": "Network Toolkit v8.4",
+      "operatingSystem": "Windows 10, Windows 11",
+      "applicationCategory": "NetworkUtility",
+      "description": "All-in-one network diagnostics suite with live dashboard, continuous traceroute, LAN scanner, TLS inspector, VPN detection, DNS leak testing, and local REST API.",
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Standard License",
+          "price": "50000",
+          "priceCurrency": "PKR",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "name": "Source Code License",
+          "price": "100000",
+          "priceCurrency": "PKR",
+          "availability": "https://schema.org/InStock"
+        }
+      ],
+      "author": {
+        "@id": "https://network-toolkit.netlify.app/#developer"
+      },
+      "publisher": {
+        "@id": "https://network-toolkit.netlify.app/#organization"
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+<div class="logo">
+<img src="icon2.png" alt="Logo" class="logo-img"> Network <span>Toolkit</span>
+</div>
+
+<div class="nav-links" id="nav-links">
+<a href="#features">Features</a>
+<a href="#deep-dive">Overview</a>
+<a href="#all-features">All Tools</a>
+<a href="#pricing">Pricing</a>
+<a href="#payments">Payments</a>
+<a href="#faq">FAQ</a>
+<a href="#developer">Developer</a>
+<a href="https://wa.me/923314442167?text=Hi!%20I%20want%20to%20buy%20Network%20Toolkit" target="_blank"
+class="nav-btn">
+<i class="fa-brands fa-whatsapp"></i> Buy Now
+</a>
+</div>
+<div class="hamburger" id="hamburger">
+<i class="fa-solid fa-bars"></i>
+</div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero">
+<div class="hero-badge">
+🚀 Network Toolkit v8.4 is now live
+</div>
+<h1>Stop using 10 different tools. <br> <span>Get everything in one.</span></h1>
+<p>
+Enterprise-grade network diagnostics, security auditing, and live monitoring in one beautiful, lightweight
+Windows application.
+</p>
+<div class="cta-group">
+<a href="https://wa.me/923314442167?text=Hi!%20I%20want%20to%20buy%20Network%20Toolkit" target="_blank"
+class="btn btn-primary">
+<i class="fa-brands fa-whatsapp"></i> Buy Now via WhatsApp
+</a>
+<a href="#features" class="btn btn-secondary">
+<i class="fa-solid fa-arrow-down"></i> Explore Features
+</a>
+</div>
+
+<!-- Screenshot Space (Hero) -->
+<div class="hero-image-wrapper">
+<div class="hero-image-placeholder">
+<img src="dashboard.png" alt="Network Toolkit live dashboard">
+</div>
+</div>
+</section>
+
+<!-- STATS BAR -->
+<section class="stats-bar">
+<div class="stat-item reveal">
+<div class="stat-number">
+6,500<span>+</span>
+</div>
+<div class="stat-label">
+Lines of Python Code
+</div>
+</div>
+<div class="stat-item reveal">
+<div class="stat-number">
+25<span>+</span>
+</div>
+<div class="stat-label">
+Pro Diagnostic Tools
+</div>
+</div>
+<div class="stat-item reveal">
+<div class="stat-number">
+4
+</div>
+<div class="stat-label">
+Languages Supported
+</div>
+</div>
+<div class="stat-item reveal">
+<div class="stat-number">
+0<span>%</span>
+</div>
+<div class="stat-label">
+Lag (Multi-threaded)
+</div>
+</div>
+</section>
+
+<!-- CORE FEATURES GRID -->
+<section class="features" id="features">
+<div class="section-header reveal">
+<h2 class="section-title">Powerful Features</h2>
+<p class="section-desc">
+Everything you need to monitor, diagnose, and secure your network, packed into one stunning UI.
+</p>
+</div>
+
+<div class="grid">
+<div class="feature-card reveal">
+<div class="feature-icon">
+<i class="fa-solid fa-chart-line"></i>
+</div>
+<h3>Live Dashboard</h3>
+<p>
+Real-time bandwidth graphs, latency scores, and network quality ratings for Gaming, Video Calls, and
+4K Streaming.
+</p>
+</div>
+<div class="feature-card reveal">
+<div class="feature-icon">
+<i class="fa-solid fa-route"></i>
+</div>
+<h3>Continuous Traceroute</h3>
+<p>
+PingPlotter-style traceroute that updates every 5 seconds. Find exactly which router is causing your
+lag.
+</p>
+</div>
+<div class="feature-card reveal">
+<div class="feature-icon">
+<i class="fa-solid fa-network-wired"></i>
+</div>
+<h3>LAN Device Scanner</h3>
+<p>
+Discover every device on your network. See their IP, MAC address, and manufacturer (Apple, Samsung,
+etc.).
+</p>
+</div>
+<div class="feature-card reveal">
+<div class="feature-icon">
+<i class="fa-solid fa-lock"></i>
+</div>
+<h3>TLS Inspector</h3>
+<p>
+Right-click any active connection to instantly view its SSL certificate, issuer, cipher suite, and
+expiration date.
+</p>
+</div>
+<div class="feature-card reveal">
+<div class="feature-icon">
+<i class="fa-solid fa-shield-halved"></i>
+</div>
+<h3>VPN & Security</h3>
+<p>
+6-layer VPN detection, DNS leak testing, and TCP retransmission monitoring to catch failing
+hardware.
+</p>
+</div>
+<div class="feature-card reveal">
+<div class="feature-icon">
+<i class="fa-solid fa-bolt"></i>
+</div>
+<h3>Automation & API</h3>
+<p>
+Built-in REST API for Home Assistant/Grafana integration, plus Webhooks to Discord or Slack.
+</p>
+</div>
+</div>
+</section>
+
+<!-- DEEP DIVE SECTION 1 -->
+<section class="deep-dive" id="deep-dive">
+<div class="deep-dive-container">
+<div class="deep-dive-content reveal">
+<span class="badge">Real-Time Monitoring</span>
+<h2>See exactly what your network is doing.</h2>
+<p>
+Stop guessing if your internet is fast enough. Our heuristic algorithm analyzes your latency,
+jitter, packet loss, and bandwidth to give you instant, color-coded ratings.
+</p>
+<ul class="deep-dive-list">
+<li><i class="fa-solid fa-check"></i> Gaming Quality: Needs &lt;40ms ping and low jitter.</li>
+<li><i class="fa-solid fa-check"></i> Video Call Quality: Needs stable ping &lt;100ms.</li>
+<li><i class="fa-solid fa-check"></i> Streaming Quality: Bandwidth-focused for 4K.</li>
+<li><i class="fa-solid fa-check"></i> Auto-scale live bandwidth graphs.</li>
+</ul>
+</div>
+<div class="deep-dive-image reveal">
+<img src="qualityBadges.png"
+alt="Network quality badges for gaming, video calls, streaming, and browsing">
+</div>
+</div>
+</section>
+
+<!-- DEEP DIVE SECTION 2 -->
+<section class="deep-dive" style="background: var(--bg-main);">
+<div class="deep-dive-container reverse">
+<div class="deep-dive-content reveal">
+<span class="badge">Deep Diagnostics</span>
+<h2>Pinpoint network drops instantly.</h2>
+<p>
+Standard traceroute only runs once. Our Continuous Traceroute pings every single hop every 5
+seconds, showing you the exact router where your connection is dying.
+</p>
+<ul class="deep-dive-list">
+<li><i class="fa-solid fa-check"></i> Updates every 5 seconds automatically.</li>
+<li><i class="fa-solid fa-check"></i> Shows Current, Average, and Worst RTT per hop.</li>
+<li><i class="fa-solid fa-check"></i> Geolocates the IP of every hop.</li>
+<li><i class="fa-solid fa-check"></i> Detects packet loss on specific routers.</li>
+</ul>
+</div>
+<div class="deep-dive-image reveal">
+<img src="rtt.png" alt="Continuous traceroute RTT graph">
+</div>
+</div>
+</section>
+
+<!-- DEEP DIVE SECTION 3 -->
+<section class="deep-dive">
+<div class="deep-dive-container">
+<div class="deep-dive-content reveal">
+<span class="badge">Security & Privacy</span>
+<h2>Know who is on your Wi-Fi.</h2>
+<p>
+Run a parallel ping sweep of your entire /24 subnet. We cross-reference MAC addresses with a
+built-in OUI database to tell you exactly what devices are connected.
+</p>
+<ul class="deep-dive-list">
+<li><i class="fa-solid fa-check"></i> Find hidden devices instantly.</li>
+<li><i class="fa-solid fa-check"></i> Inspect SSL/TLS certificates of active connections.</li>
+<li><i class="fa-solid fa-check"></i> Detect DNS leaks to protect your privacy.</li>
+<li><i class="fa-solid fa-check"></i> TCP Health tab to spot bad cables/Wi-Fi interference.</li>
+</ul>
+</div>
+<div class="deep-dive-image reveal">
+<img src="lanScanner.png" alt="LAN scanner showing discovered network devices">
+</div>
+</div>
+</section>
+
+<!-- ALL FEATURES LIST -->
+<section class="all-features" id="all-features">
+<div class="section-header reveal">
+<h2 class="section-title">Everything included.</h2>
+<p class="section-desc">
+Network Toolkit replaces 25+ command-line tools and expensive enterprise software.
+</p>
+</div>
+<div class="features-list-grid reveal">
+<div class="list-item">
+<i class="fa-solid fa-check"></i> Real-time Speed Graph
+</div>
+<div class="list-item">
+<i class="fa-solid fa-check"></i> Quality Score (Gaming/Video)
+</div>
+<div class="list-item">
+<i class="fa-solid fa-check"></i> Bandwidth Cap Tracker
+</div>
+<div class="list-item">
+<i class="fa-solid fa-check"></i> Downtime Logger
+</div>
+<div class="list-item">
+<i class="fa-solid fa-check"></i> Continuous Traceroute
+</div>
+<div class="list-item">
+<i class="fa-solid fa-check"></i> LAN Device Scanner
+</div>
+<div class="list-item">
+<i class="fa-solid fa-check"></i> TLS Inspector
+</div>
+<div class="list-item">
+<i class="fa-solid fa-check"></i> 6-Layer VPN Detection
+</div>
+<div class="list-item">
+<i class="fa-solid fa-check"></i> DNS Leak Test
+</div>
+<div class="list-item">
+<i class="fa-solid fa-check"></i> Local REST API
+</div>
+<div class="list-item">
+<i class="fa-solid fa-check"></i> Discord/Slack Webhooks
+</div>
+<div class="list-item">
+<i class="fa-solid fa-check"></i> Wi-Fi Channel Chart
+</div>
+<div class="list-item">
+<i class="fa-solid fa-check"></i> Multi-Ping Monitor
+</div>
+<div class="list-item">
+<i class="fa-solid fa-check"></i> Wi-Fi QR Generator
+</div>
+<div class="list-item">
+<i class="fa-solid fa-check"></i> TCP Health Metrics
+</div>
+<div class="list-item">
+<i class="fa-solid fa-check"></i> MTU Discovery
+</div>
+<div class="list-item">
+<i class="fa-solid fa-check"></i> Firewall Rule Inspector
+</div>
+<div class="list-item">
+<i class="fa-solid fa-check"></i> Active Process Monitor
+</div>
+<div class="list-item">
+<i class="fa-solid fa-check"></i> Connection Tracker
+</div>
+<div class="list-item">
+<i class="fa-solid fa-check"></i> DNS Cache Viewer
+</div>
+<div class="list-item">
+<i class="fa-solid fa-check"></i> Port Scanner
+</div>
+<div class="list-item">
+<i class="fa-solid fa-check"></i> Download/Upload Speed Test
+</div>
+<div class="list-item">
+<i class="fa-solid fa-check"></i> History & Heatmap (SQLite)
+</div>
+<div class="list-item">
+<i class="fa-solid fa-check"></i> Custom Alerts & Rules
+</div>
+</div>
+</section>
+
+<!-- PRICING SECTION -->
+<section class="pricing" id="pricing">
+<div class="section-header reveal">
+<h2 class="section-title">Simple, One-Time Pricing</h2>
+<p class="section-desc">
+No subscriptions. No hidden fees. Pay once and use it forever.
+</p>
+</div>
+
+<div class="pricing-grid">
+<!-- Standard License -->
+<div class="pricing-card reveal">
+<h3>Standard License</h3>
+<p class="pricing-desc">
+Perfect for professionals, gamers, and IT admins.
+</p>
+
+<div class="price-wrap">
+<div class="old-price">
+60,000 PKR
+</div>
+<div class="new-price">
+50,000 <span>PKR</span>
+</div>
+</div>
+
+<ul class="pricing-features">
+<li><i class="fa-solid fa-circle-check"></i> Standalone <code>.exe</code> App</li>
+<li><i class="fa-solid fa-circle-check"></i> All Premium Features Unlocked</li>
+<li><i class="fa-solid fa-circle-check"></i> Lifetime Access & Updates</li>
+<li><i class="fa-solid fa-circle-check"></i> Works on Windows 10 & 11</li>
+</ul>
+
+<a href="https://wa.me/923314442167?text=Hi!%20I%20want%20to%20buy%20the%20Standard%20License%20for%2050,000%20PKR"
+target="_blank" class="btn btn-primary" style="width: 100%; justify-content: center;">
+Buy License
+</a>
+</div>
+
+<!-- Source Code License -->
+<div class="pricing-card popular reveal">
+<div class="popular-badge">
+For Agencies
+</div>
+<h3>Source Code</h3>
+<p class="pricing-desc">
+Rebrand it, integrate it, or resell it as your own.
+</p>
+
+<div class="price-wrap">
+<div class="old-price">
+150,000 PKR
+</div>
+<div class="new-price">
+100,000 <span>PKR</span>
+</div>
+</div>
+
+<ul class="pricing-features">
+<li><i class="fa-solid fa-circle-check"></i> Full 6,500+ Lines Python Code</li>
+<li><i class="fa-solid fa-circle-check"></i> Commercial Rights Included</li>
+<li><i class="fa-solid fa-circle-check"></i> <code>NetworkToolkit.spec</code> (Build File)</li>
+<li><i class="fa-solid fa-circle-check"></i> Free Consultation / Setup Help</li>
+</ul>
+
+<a href="https://wa.me/923314442167?text=Hi!%20I%20am%20interested%20in%20buying%20the%20Source%20Code"
+target="_blank" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+Inquire Source Code
+</a>
+</div>
+</div>
+</section>
+
+<!-- PAYMENT METHODS SECTION -->
+<section class="payments" id="payments">
+<div class="section-header reveal">
+<h2 class="section-title">Secure Payment Methods</h2>
+<p class="section-desc">
+We accept Pakistan's most trusted payment methods. All transactions are 100% secure, encrypted, and verified before software delivery.
+</p>
+</div>
+
+<div class="payments-grid reveal">
+<!-- Easypaisa -->
+<div class="payment-card">
+<div class="payment-icon">
+<img src="easypaisaLogo.png" alt="Easypaisa Logo">
+</div>
+<h3>Easypaisa</h3>
+<p>
+Instant mobile wallet transfer.
+</p>
+</div>
+
+<!-- JazzCash -->
+<div class="payment-card">
+<div class="payment-icon">
+<img src="jazzcashLogo.png" alt="JazzCash Logo">
+</div>
+<h3>JazzCash</h3>
+<p>
+Fast and reliable mobile payment.
+</p>
+</div>
+<!-- NayaPay -->
+<div class="payment-card">
+    <div class="payment-icon">
+        <img src="nayapayLogo.png" alt="NayaPay Logo">
+    </div>
+    <h3>NayaPay</h3>
+    <p>Modern digital wallet transfer.</p>
+</div>
+
+<!-- Bank Transfer -->
+<div class="payment-card">
+<div class="payment-icon">
+<i class="fa-solid fa-building-columns" style="color: #10b981;"></i>
+</div>
+<h3>Bank Transfer</h3>
+<p>
+Direct IBAN transfer to local banks (Meezan, HBL, etc).
+</p>
+</div>
+</div>
+
+<div class="payment-security reveal">
+<i class="fa-solid fa-shield-halved"></i>
+<p>
+<strong>100% Secure & Verified.</strong> We only release the software after payment is confirmed. You will receive an official invoice via WhatsApp/Email for your records.
+</p>
+</div>
+</section>
+
+<!-- FAQ SECTION -->
+<section class="faq" id="faq">
+<div class="section-header reveal">
+<h2 class="section-title">Frequently Asked Questions</h2>
+</div>
+<div class="faq-container reveal">
+<details>
+<summary>Do I need Python installed to run the .exe?</summary>
+<div class="faq-content">
+No. The Standard License comes as a completely standalone <code>Network Toolkit.exe</code> file. You
+can copy it to any Windows 10 or 11 PC, and it will run instantly without requiring any terminal
+commands or Python installation.
+</div>
+</details>
+<details>
+<summary>Can I use this on multiple computers?</summary>
+<div class="faq-content">
+The Standard License is for a single user on a single PC. If you are an IT agency or need to deploy
+it across an office, please contact us for bulk licensing or the Source Code option.
+</div>
+</details>
+<details>
+<summary>Does the app collect my data?</summary>
+<div class="faq-content">
+Absolutely not. Privacy is our priority. All data (including your history graphs and settings) is
+stored locally on your machine in a SQLite database. The only external requests made are to public
+APIs to check your Public IP and GeoIP location.
+</div>
+</details>
+<details>
+<summary>What is the REST API used for?</summary>
+<div class="faq-content">
+The REST API allows you to pull your live network stats into other software like Home Assistant,
+Grafana, or custom dashboards. It runs locally on <code>http://127.0.0.1:8080</code>.
+</div>
+</details>
+<details>
+<summary>How do I receive the file after payment?</summary>
+<div class="faq-content">
+After payment confirmation, we will send you the <code>Network Toolkit.exe</code> file (or the
+Source Code Zip file) directly via WhatsApp, along with your invoice and any setup instructions you
+need.
+</div>
+</details>
+<details>
+<summary>What payment methods do you accept?</summary>
+<div class="faq-content">
+We accept <strong>Easypaisa, JazzCash, NayaPay, and Direct Bank Transfer</strong>. All payments are securely verified before we send you the software. You will receive a proper invoice upon successful payment.
+</div>
+</details>
+</div>
+</section>
+
+<!-- DEVELOPER INFO SECTION -->
+<section class="developer" id="developer">
+<div class="section-header reveal">
+<h2 class="section-title">Meet the Developer</h2>
+<p class="section-desc">
+The mind behind Network Toolkit — built with passion, precision, and thousands of lines of code.
+</p>
+</div>
+
+<div class="dev-container reveal">
+<div class="dev-card">
+<div class="dev-avatar-wrap">
+<div class="dev-avatar">
+<img src="rayyan-profile.jpg" alt="Rayyan Amin - Software Engineer">
+</div>
+<div class="dev-status">
+<span class="status-dot"></span> Available for work
+</div>
+</div>
+
+<div class="dev-info">
+<h3>Rayyan Amin</h3>
+<p class="dev-role">
+Full-Stack Web Developer &amp; Software Engineer
+</p>
+<p class="dev-bio">
+Software engineer from Pakistan specializing in network engineering, Python automation,
+and lightweight desktop applications. Creator of Network Toolkit v8.4 — a 6,500+ line
+enterprise-grade diagnostic suite built with a multi-threaded Python backend and a modern
+dark UI.
+</p>
+
+<div class="dev-skills">
+<span class="skill-tag"><i class="fa-brands fa-python"></i> Python</span>
+<span class="skill-tag"><i class="fa-brands fa-js"></i> JavaScript</span>
+<span class="skill-tag"><i class="fa-brands fa-html5"></i> HTML5</span>
+<span class="skill-tag"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+<span class="skill-tag"><i class="fa-solid fa-database"></i> SQLite</span>
+<span class="skill-tag"><i class="fa-solid fa-network-wired"></i> Networking</span>
+<span class="skill-tag"><i class="fa-solid fa-shield-halved"></i> Security</span>
+</div>
+
+<div class="dev-contact">
+<a href="mailto:rayyanamin745@gmail.com" class="dev-link">
+<i class="fa-solid fa-envelope"></i> rayyanamin745@gmail.com
+</a>
+<a href="https://wa.me/923314442167" target="_blank" class="dev-link">
+<i class="fa-brands fa-whatsapp"></i> +92 331 444 2167
+</a>
+<span class="dev-link dev-address">
+<i class="fa-solid fa-location-dot"></i> Dargai, Malakand, Khyber Pakhtunkhwa, Pakistan
+</span>
+</div>
+</div>
+</div>
+
+<div class="dev-stats-grid">
+<div class="dev-stat-card">
+<i class="fa-solid fa-code"></i>
+<div class="dev-stat-number">
+6,500+
+</div>
+<div class="dev-stat-label">
+Lines of Code
+</div>
+</div>
+<div class="dev-stat-card">
+<i class="fa-solid fa-toolbox"></i>
+<div class="dev-stat-number">
+25+
+</div>
+<div class="dev-stat-label">
+Tools Built
+</div>
+</div>
+<div class="dev-stat-card">
+<i class="fa-solid fa-clock"></i>
+<div class="dev-stat-number">
+5+
+</div>
+<div class="dev-stat-label">
+Years Experience
+</div>
+</div>
+<div class="dev-stat-card">
+<i class="fa-solid fa-heart"></i>
+<div class="dev-stat-number">
+100%
+</div>
+<div class="dev-stat-label">
+Passion Driven
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+<div class="footer-grid">
+<div class="footer-col">
+<div class="logo" style="margin-bottom: 20px;">
+<img src="icon2.png" alt="Logo" class="logo-img"> Network <span>Toolkit</span>
+</div>
+<p style="color: var(--text-muted); font-size: 0.9rem;">
+The ultimate all-in-one network diagnostic suite. Built for professionals, gamers, and IT admins.
+</p>
+</div><div class="footer-col company-info">
+    <h4>Company Info</h4>
+    <span class="company-name-title">Software Engineer's</span>
+    <span class="company-trading-as">Trading As: Network Toolkit</span>
+    <ul>
+        <li><i class="fa-solid fa-location-dot"></i> <span>Dargai, Malakand, KPK, Pakistan</span></li>
+        <li><i class="fa-solid fa-envelope"></i> <span>rayyanamin745@gmail.com</span></li>
+        <li><i class="fa-brands fa-whatsapp"></i> <span>+92 331 444 2167</span></li>
+    </ul>
+</div>
+<div class="footer-col">
+<h4>Product</h4>
+<ul>
+<li><a href="#features">Features</a></li>
+<li><a href="#deep-dive">Overview</a></li>
+<li><a href="#all-features">All Tools</a></li>
+<li><a href="#pricing">Pricing</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Support</h4>
+<ul>
+<li><a href="#faq">FAQ</a></li>
+<li><a href="https://wa.me/923314442167?text=Hi!%20I%20need%20support%20for%20Network%20Toolkit"
+target="_blank">Contact Support</a></li>
+<li><a href="https://wa.me/923314442167?text=Hi!%20I%20want%20a%20live%20demo"
+target="_blank">Request Demo</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Contact</h4>
+<ul>
+<li><a href="https://wa.me/923314442167" target="_blank"><i class="fa-brands fa-whatsapp"
+style="margin-right: 8px;"></i> +92 331 444 2167</a></li>
+<li><a href="mailto:rayyanamin745@gmail.com?subject=Inquiry%20about%20Network%20Toolkit"><i
+class="fa-solid fa-envelope" style="margin-right: 8px;"></i> rayyanamin745@gmail.com</a>
+</li>
+<li><i class="fa-solid fa-location-dot"
+style="margin-right: 8px; color: var(--accent-primary);"></i> Dargai, Malakand, Khyber
+Pakhtunkhwa, Pakistan</li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<p>
+&copy; 2025 Software Engineer's. All rights reserved. Network Toolkit is a registered trademark.
+</p>
+<p>
+Designed & Developed with <i class="fa-solid fa-heart" style="color: var(--accent-red);"></i> in
+Pakistan.
+</p>
+</div>
+</footer>
+
+<!-- JAVASCRIPT -->
+<script src="script.js"></script>
+</body>
+
+</html>
